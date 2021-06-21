@@ -1,0 +1,66 @@
+/* Mi encabezado */
+*{margin: 8px;
+border-radius: 5px;}
+header {font-family: Arial; 
+    color: rgb(252, 252, 252);
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(102, 226, 214);
+    display: flex;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+aside{
+    grid-column: 1/2;
+    background-color: rgb(212, 97, 76);
+    
+}
+section{
+    grid-column: 2/5;
+    background-color: rgb(240, 221, 186);
+    text-align: center;
+    font-family: Arial;
+}
+
+.menu{
+    display: flex;
+}
+nav ul {
+    list-style:none;
+    padding: 2px;
+    color: lightslategrey;
+    background: rgb(205, 251, 152);
+}
+.menu li{
+    width: 100%;
+    text-align: center;
+}
+.menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 149, 58);
+    text-decoration: none;
+}
+.dropdown li {
+    display: none;
+
+}
+.menu li:hover .dropdown li{
+    display: block;
+}
+.menu a:hover{
+    background: rgb(131, 186, 235);
+    color: aliceblue;
+}
+.informacion {
+    color: rgb(58, 54, 54);
+    background: rgb(223, 223, 182);
+    font-size: 1.2em;
+}
+footer{
+    text-align: center;
+}
