@@ -2,10 +2,10 @@
 *{margin: 8px;
 border-radius: 5px;}
 header {font-family: Arial; 
-    color: rgb(252, 252, 252);
+    color: rgb(41, 41, 41);
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(161, 190, 183);
+    background-color: rgb(199, 214, 211);
     display: flex;
 }
 .contenedor{
@@ -14,12 +14,12 @@ header {font-family: Arial;
 }
 aside{
     grid-column: 1/2;
-    background-color: rgb(226, 189, 182);
+    background-color: rgb(179, 168, 165);
     
 }
 section{
     grid-column: 2/5;
-    background-color: rgb(243, 233, 213);
+    background-color: rgb(230, 230, 230);
     text-align: center;
     font-family: Arial;
 }
@@ -31,7 +31,7 @@ nav ul {
     list-style:none;
     padding: 2px;
     color: lightslategrey;
-    background: rgb(211, 224, 195);
+    background: rgb(112, 112, 112);
 }
 .menu li{
     width: 100%;
@@ -42,7 +42,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     color: rgb(255, 255, 255);
-    background: rgb(226, 167, 99);
+    background: rgb(206, 206, 206);
     text-decoration: none;
 }
 .dropdown li {
@@ -63,4 +63,5 @@ nav ul {
 }
 footer{
     text-align: center;
+    background-color: rgb(169, 169, 179);
 }
