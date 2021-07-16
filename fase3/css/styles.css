@@ -5,7 +5,7 @@ header {font-family: Arial;
     color: rgb(252, 252, 252);
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(102, 226, 214);
+    background-color: rgb(161, 190, 183);
     display: flex;
 }
 .contenedor{
@@ -14,7 +14,7 @@ header {font-family: Arial;
 }
 aside{
     grid-column: 1/2;
-    background-color: rgb(238, 178, 168);
+    background-color: rgb(235, 204, 198);
     
 }
 section{
@@ -31,7 +31,7 @@ nav ul {
     list-style:none;
     padding: 2px;
     color: lightslategrey;
-    background: rgb(205, 251, 152);
+    background: rgb(211, 224, 195);
 }
 .menu li{
     width: 100%;
