@@ -5,8 +5,9 @@ header {font-family: Arial;
     color: rgb(41, 41, 41);
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(199, 214, 211);
+    background-color: rgb(125, 211, 192);
     display: flex;
+    font-size: 2em;
 }
 .contenedor{
     display: grid;
@@ -14,12 +15,12 @@ header {font-family: Arial;
 }
 aside{
     grid-column: 1/2;
-    background-color: rgb(179, 168, 165);
+    background-color: rgb(252, 252, 252);
     
 }
 section{
     grid-column: 2/5;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(245, 244, 244);
     text-align: center;
     font-family: Arial;
 }
@@ -63,5 +64,13 @@ nav ul {
 }
 footer{
     text-align: center;
-    background-color: rgb(169, 169, 179);
+    background-color: rgb(183, 223, 250);
 }
+article{
+    width: 85%;
+    font-family: Arial;
+    margin: 0 auto;
+    background-color: rgb(241, 240, 240);
+    border-color: black;
+    border-radius: 10pt;
+    }
