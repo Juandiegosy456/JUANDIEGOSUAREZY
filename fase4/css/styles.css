@@ -15,7 +15,7 @@ header {font-family: Arial;
 }
 aside{
     grid-column: 1/2;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(189, 189, 189);
     
 }
 section{
@@ -74,3 +74,9 @@ article{
     border-color: black;
     border-radius: 10pt;
     }
+.centrado{
+    text-align: center;
+
+
+
+}   
